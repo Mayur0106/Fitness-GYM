@@ -15,22 +15,34 @@ body{
    
 }
 .left{
-
-
-    display: inline-block;
-    border: 3px solid yellow;
+    /* display: inline-block; */
+    display: block;
+    /* border: 3px solid yellow; */
     position: absolute;
     left: 60px;
-    top: 20px;
+    bottom: 94.6%;
+    /* bottom: 94%; */
+    
+    /* margin-bottom: 90%; */
+   
 }
 .left img{
-    width: 136px;
+    width: 165px;
     filter: invert();
+   
 }
-.left div
-{       line-height: 19px;
+.left div{
+/* {       line-height: 19px;
+        font-size: 26px;
+        text-align: center; */
+
+        
+        line-height: 1%;
         font-size: 26px;
         text-align: center;
+       
+
+       
 }
 .mid
 {
@@ -87,11 +99,31 @@ button
     color: gray;
 }
 .container{
-    border: 2px solid white;
-    margin: 106px 80px;
-    padding: 75px;
-    width: 33%;
-    border-radius: 28px;
+    /* 
+    
+    margin: 60% 6%;  */
+
+
+        /* margin: 60% 6%; */
+        border: 2px solid white;
+        /*  margin: 190px 80px; */
+        
+        
+         margin: 250px 80px; 
+      
+
+         /* margin: 250px 80px 550px 20px;  */
+
+         /* margin-left: 80px; */
+        /*    margin-top: 250px;   */
+         /* margin-bottom: 3800px; */
+/*        
+        margin-top: 325px;
+        margin-left: 80px;
+        margin-bottom: 0px; */
+        
+        width: 33%;
+        border-radius: 28px;
 }
 
 .form-group input{
@@ -108,13 +140,83 @@ button
 .container{
     text-align: center;
 }
+
 .btn{
+    
     display: block;
     width: 40%;
-    margin: 2px 58%;
+    margin: 28px 55%;
+}
+
+
+#in_btn{
+   
+
+    background-color: #8EEBEC;
+    color: black;
+}
+#in_btn:hover
+{
+   
+    background-color: #43C6DB;
+    border: 2px solid #77BFC7;
+}
+
+.form-group input:hover{
+    border: 2px solid red;
 }
 
 .iso{
-     margin-left: 16% ;
-     margin-top: 75%;
+    background-color: red;
+    font-size: 133%;
+    margin-left: 87%;
+    margin-top: 36%;
+    width: 12%;
+    padding: 1%;
+}
+
+/* .box
+{
+    display: block;
+    width: 50%;
+
+    margin: 90px auto;
+    /* border: 4px solid yellow; 
+    
+} */
+.line{
+/* 
+    border-left: 6px solid red;
+    height: 34px;
+    font-size: 30px;
+    margin-left: 6%;
+    
+    margin-bottom: 90px;
+    padding-bottom: 8px; */
+   
+        border-left: 6px solid red;
+        height: 34px;
+        font-size: 29px;
+        margin-left: 3%;
+        margin-top: 21%;
+        /* margin-bottom: -16%; */
+        padding-bottom: 8px;
+}
+.line_01{
+
+    font-size: 72px;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+
+#line_01
+{
+    color: red;
+}
+
+#iso{
+    
+    margin-top: 4%;
+    margin-left: 95%;
+    color: black;
 }
